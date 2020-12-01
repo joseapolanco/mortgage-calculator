@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Mortgage Calculator</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="mortgage.css">
+    </head>
+    <body style="background-color: deepskyblue">
+        <div class="outer">
+            <div class="form-div">
+                <form action="MortgageCalculator.jsp" method="get">
+                    <h1>Mortgage Calculator</h1>
+                    <div class="question">
+                        <input type="text" placeholder="Mortgage amount" name="principal"
+                               required/>
+                    </div>
+                    <div class="question">
+                        <input type="text" placeholder="Interest rate (%)" name="rate"
+                               required/>
+                    </div>
+                    <div class="question">
+                        <input type="text" placeholder="Mortgage period (years)"
+                               name="life" required/>
+                    </div>
+                    <div class="question">
+                    <input class="button" type="submit" value="Submit">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
