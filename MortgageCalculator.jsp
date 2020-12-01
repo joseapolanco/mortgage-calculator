@@ -1,9 +1,7 @@
 <%--
-  Created by IntelliJ IDEA.
-  User: josla
+  Author: Jose Polanco
   Date: 11/30/2020
   Time: 12:28 PM
-  To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@page import="java.text.NumberFormat, java.util.*"%>
